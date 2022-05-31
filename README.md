@@ -5,6 +5,7 @@
 - This program sends one message (written in main.py) to your Discord friend specified on lines 3 and 4 of **_account.txt_**. See **_sample_account.txt_**.
 
 - The sample batch file will inform your co-op partner when you boot up Elden Ring 
+
 ![Elden Ring but annoying shortcut](images/header.png)
 
 ## How to use
@@ -17,6 +18,7 @@
 - Third and forth lines are the web address of your friend's chat (format:"https://discord.com/channels/@me/999999999999999999"), and their @username (include '@' symbol)
 
 -- To find your friend's chat web address, login to the Discord web client and navgiate to their chat. Copy and paste the url in your browser search bar into **_account.txt_** on line 3.
+
 ![locate a friend's chat link](images/sampleChat.png)
 
 - Make sure to install appropriate version of **_ChromeDriver_**, included version is compatiable with chrome version 102
