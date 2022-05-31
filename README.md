@@ -1,34 +1,25 @@
 # Discord Automation
-#### _Project #3_
-- An automated program to login and send messages to Discord using **_Selenium_** and **_PyAutoGUI_**
+####
+- An automated program to login and send messages to Discord using **_Selenium_**
 
-- This program was developed to help me automatically play **EPIC RPG** - a game in Discord, by using commands as messages in Discord
+- This program sends one message (written in main.py) to your Discord friend specified on lines 3 and 4 of **_account.txt_**. See **_sample_account.txt_**.
 
-- There are currently two versions of this program using different packages with different ways to use
-
-- Check out all branches for more details of each version
-
-- The syntax may have changed by the time you see this
-
-- You can use this as a demonstration, a reference to create similar program
-
-- You may change the code to make the program most suitable
-
-## Description
-- This version uses **_Selenium_**, check **_requirements.txt_** for more details
-
-  ### Pros
-  * Can use multiple applications at the same time without affecting the automated program
-
-  ### Cons
-  * Errors are more likely to occur
-  * More personalized, complex, and complicated as the process is longer
+- The sample batch file will inform your co-op partner when you boot up Elden Ring 
+![Elden Ring but annoying shortcut](images/header.png)
 
 ## How to use
-- Create a text file in the same directory named **_account.txt_** to store your email and password
+- install **_Selenium_**: python -m pip install selenium
+
+- Create a text file in the same directory named **_account.txt_** to store your Discord email and password, and information about your friend's chat
 
 - First line is your email/username and second line is your password
 
-- Make sure to install appropriate version of **_ChromeDriver_**
+- Third and forth lines are the web address of your friend's chat (format:"https://discord.com/channels/@me/999999999999999999"), and their @username (include '@' symbol)
 
-- Run **_main.py_**
+-- To find your friend's chat web address, login to the Discord web client and navgiate to their chat. Copy and paste the url in your browser search bar into **_account.txt_** on line 3.
+![locate a friend's chat link](images/sampleChat.png)
+
+- Make sure to install appropriate version of **_ChromeDriver_**, included version is compatiable with chrome version 102
+
+- Run **_main.py_**, or use the included batch file / desktop short cuts to also start Elden Ring (if purchased through steam). If using the batch file, edit the first line to match the local directory where you've cloned this repo.
+

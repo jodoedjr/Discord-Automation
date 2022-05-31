@@ -1,0 +1,4 @@
+myDiscordLoginEmail@email.com
+myDiscordLoginPassword
+https://discord.com/channels/@me/999999999999999999
+@friendsUserName
