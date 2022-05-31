@@ -5,6 +5,7 @@
 - This program sends one message (written in main.py) to your Discord friend specified on lines 3 and 4 of **_account.txt_**. See **_sample_account.txt_**.
 
 - The sample batch file will inform your co-op partner when you boot up Elden Ring 
+
 ![Elden Ring but annoying shortcut](images/header.png)
 
 ## How to use
