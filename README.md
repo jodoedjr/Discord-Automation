@@ -21,7 +21,7 @@
 
 ![locate a friend's chat link](images/sampleChat.png)
 
-- Make sure to install appropriate version of **_ChromeDriver_**, included version is compatiable with chrome version 108 (updated 2023-01-09)
+- Make sure to install appropriate version of **_ChromeDriver_**, included version is compatiable with chrome version 115 (updated 2023-08-10)
 https://chromedriver.chromium.org/downloads
 
 - Run **_main.py_**, or use the included batch file / desktop short cuts to also start Elden Ring (if purchased through steam). If using the batch file, edit the first line to match the local directory where you've cloned this repo.
