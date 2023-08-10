@@ -23,7 +23,7 @@ else:
 
 user = User(email, password, 'https://discord.com/login', target, targetUserName)
 
-user.login()
+user.login() #if issues occur, check debug for chrome / chromium version and download/replace new chromedriver executable
 sleep(5)
 user.choose()
 sleep(5)

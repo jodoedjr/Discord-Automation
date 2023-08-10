@@ -18,7 +18,7 @@
 - Third and forth lines are the web address of your friend's chat (format:"https://discord.com/channels/@me/999999999999999999"), and their @username (include '@' symbol)
 
 -- To find your friend's chat web address, login to the Discord web client and navgiate to their chat. Copy and paste the url in your browser search bar into **_account.txt_** on line 3.
-
+ 
 ![locate a friend's chat link](images/sampleChat.png)
 
 - Make sure to install appropriate version of **_ChromeDriver_**, included version is compatiable with chrome version 115 (updated 2023-08-10)
